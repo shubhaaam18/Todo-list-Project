@@ -1,0 +1,121 @@
+body{
+    background-color: rgb(127, 123, 123);
+    padding: 20px;     
+}
+
+.background-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('todolist.jpg');
+    background-size: cover;
+    z-index: -1;
+    filter: blur(50px);
+}
+
+h1{
+    text-align: center;
+    padding: 0px;
+    font-style:oblique ;
+    background: #cb4739;
+    border-radius: 10px;
+    background-color: rgb(96, 134, 134);
+    align-items: center;
+}
+
+.first-h1{
+    width: 100%;
+    max-width: 600px;
+    background: #fff;
+    margin: 18px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+}
+
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background:rgb(231, 220, 225); ;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+
+input{
+    border: none;
+    outline: none;
+    flex: 1;
+    background: transparent;
+    padding: 10px;
+    font-weight: 14px;
+}
+
+.button1{
+    border: none;
+    outline: none;
+    padding: 16px 50px;
+    background: #ff5945;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 40px; 
+}
+
+.entry {
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.moved {
+    transform: translateX(60%); 
+}
+
+.entry-list {
+    margin-left: 150px;
+    max-width: 1100px;
+    width: 100%;
+    font-style: oblique;
+    font-size: large;
+}
+
+.doneitemsHeading{
+    margin-left: 1000px;
+    margin-top: 0px;
+}
+
+.heading-container {
+    display:flex;
+    margin-left: 190px;
+    border-radius: 10px;
+
+}
+
+.heading1{
+    background-color: rgb(233, 151, 151);
+    border-radius: 10px;
+}
+
+.heading2{
+    margin-left: 580px;
+    background-color:  rgb(183, 230, 230);
+    border-radius: 10px;  
+}
+  
+button{
+    background-color: #ff5945;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#totalCount {
+    position: relative;
+    z-index: 2;
+    margin-left: 180px;
+    margin-bottom: 20px;
+    font-style: italic;
+    font-size:medium ;
+}
